@@ -83,7 +83,19 @@ Dataset tidak disertakan dalam repository karena ukuran file yang cukup besar.
 | MSE | 1052.75 |
 | R² Score | 0.8440 |
 
+## Visualization
 
+### Prediction vs Actual PM2.5
+
+![Prediction vs Actual](images/Prediksi%20vs%20Aktual%20(Sample).png)
+
+### Training Loss
+
+![Training Loss](images/Training%20Loss.png)
+
+### LSTM vs RNN Comparison
+
+![LSTM vs RNN](images/Perbandingan%20LSTM%20vs%20RNN.png)
 
 ## Key Findings
 
