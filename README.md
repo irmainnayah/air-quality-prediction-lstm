@@ -87,13 +87,19 @@ Dataset tidak disertakan dalam repository karena ukuran file yang cukup besar.
 
 ### Prediction vs Actual PM2.5
 
+Model berhasil mengikuti pola aktual PM2.5 dengan cukup baik pada data pengujian.
+
 ![Prediction vs Actual](images/Prediksi%20vs%20Aktual%20(Sample).png)
 
 ### Training Loss
 
+Kurva training menunjukkan model berhasil mempelajari pola data selama proses pelatihan.
+
 ![Training Loss](images/Training%20Loss.png)
 
 ### LSTM vs RNN Comparison
+
+Perbandingan performa menunjukkan LSTM menghasilkan nilai MAE dan MSE yang lebih rendah serta R² yang lebih stabil dibandingkan RNN pada sebagian besar fold validasi.
 
 ![LSTM vs RNN](images/Perbandingan%20LSTM%20vs%20RNN.png)
 
